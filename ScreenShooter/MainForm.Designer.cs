@@ -85,9 +85,9 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(10, 87);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(74, 13);
+            this.label11.Size = new System.Drawing.Size(76, 13);
             this.label11.TabIndex = 17;
-            this.label11.Text = "Start-Stop key";
+            this.label11.Text = "Start/Stop key";
             // 
             // label12
             // 
@@ -133,18 +133,18 @@
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(9, 7);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(145, 13);
+            this.label13.Size = new System.Drawing.Size(141, 13);
             this.label13.TabIndex = 17;
-            this.label13.Text = "Saved Screenshots Directory";
+            this.label13.Text = "Saved screenshots directory";
             // 
             // changeLocBtn
             // 
             this.changeLocBtn.Location = new System.Drawing.Point(125, 49);
             this.changeLocBtn.Name = "changeLocBtn";
-            this.changeLocBtn.Size = new System.Drawing.Size(61, 22);
+            this.changeLocBtn.Size = new System.Drawing.Size(102, 22);
             this.changeLocBtn.TabIndex = 19;
             this.changeLocBtn.TabStop = false;
-            this.changeLocBtn.Text = "Change";
+            this.changeLocBtn.Text = "Change directory";
             this.changeLocBtn.UseVisualStyleBackColor = true;
             this.changeLocBtn.Click += new System.EventHandler(this.ChangeLocationBtn_Click);
             // 
@@ -152,9 +152,9 @@
             // 
             this.changeKeysBtn.Location = new System.Drawing.Point(14, 171);
             this.changeKeysBtn.Name = "changeKeysBtn";
-            this.changeKeysBtn.Size = new System.Drawing.Size(47, 23);
+            this.changeKeysBtn.Size = new System.Drawing.Size(116, 23);
             this.changeKeysBtn.TabIndex = 20;
-            this.changeKeysBtn.Text = "OK";
+            this.changeKeysBtn.Text = "Confirm keys change";
             this.changeKeysBtn.UseVisualStyleBackColor = true;
             this.changeKeysBtn.Click += new System.EventHandler(this.ChangeKeys_Click);
             // 
@@ -256,27 +256,27 @@
             this.help1Label.AutoSize = true;
             this.help1Label.Location = new System.Drawing.Point(16, 226);
             this.help1Label.Name = "help1Label";
-            this.help1Label.Size = new System.Drawing.Size(268, 13);
+            this.help1Label.Size = new System.Drawing.Size(215, 13);
             this.help1Label.TabIndex = 28;
-            this.help1Label.Text = "1. Point to the top left corner and press \"start/stop\" key";
+            this.help1Label.Text = "1. Point to the top left corner and press \"F9\"";
             // 
             // help2Label
             // 
             this.help2Label.AutoSize = true;
             this.help2Label.Location = new System.Drawing.Point(16, 248);
             this.help2Label.Name = "help2Label";
-            this.help2Label.Size = new System.Drawing.Size(291, 13);
+            this.help2Label.Size = new System.Drawing.Size(238, 13);
             this.help2Label.TabIndex = 28;
-            this.help2Label.Text = "2. Point to the bottom right corner and press \"start/stop\" key";
+            this.help2Label.Text = "2. Point to the bottom right corner and press \"F9\"";
             // 
             // help3Label
             // 
             this.help3Label.AutoSize = true;
             this.help3Label.Location = new System.Drawing.Point(16, 270);
             this.help3Label.Name = "help3Label";
-            this.help3Label.Size = new System.Drawing.Size(201, 13);
+            this.help3Label.Size = new System.Drawing.Size(187, 13);
             this.help3Label.TabIndex = 28;
-            this.help3Label.Text = "3 .Press \"F3\" key to save the screenshot";
+            this.help3Label.Text = "3 .Press \"F10\" to save the screenshot";
             // 
             // label19
             // 
@@ -291,9 +291,9 @@
             this.help4Label.AutoSize = true;
             this.help4Label.Location = new System.Drawing.Point(28, 289);
             this.help4Label.Name = "help4Label";
-            this.help4Label.Size = new System.Drawing.Size(212, 13);
+            this.help4Label.Size = new System.Drawing.Size(218, 13);
             this.help4Label.TabIndex = 29;
-            this.help4Label.Text = "or press Shift+F3 to save and open in folder";
+            this.help4Label.Text = "or press Shift+F10 to save and open in folder";
             // 
             // playSoundsCheckBox
             // 

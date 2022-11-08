@@ -152,8 +152,8 @@ namespace ScreenShooterApp
                 const string initialLocation = "\\ScreenShooter";
                 configuration.AppSettings.Settings.Add(SETTINGS_SAVEFOLDER,
                     Environment.GetFolderPath(Environment.SpecialFolder.MyPictures) + initialLocation);
-                configuration.AppSettings.Settings.Add(SETTINGS_STARTKEY, Keys.F2.ToString());
-                configuration.AppSettings.Settings.Add(SETTINGS_SAVEKEY, Keys.F3.ToString());
+                configuration.AppSettings.Settings.Add(SETTINGS_STARTKEY, Keys.F9.ToString());
+                configuration.AppSettings.Settings.Add(SETTINGS_SAVEKEY, Keys.F10.ToString());
                 configuration.AppSettings.Settings.Add(SETTINGS_SHOWPOPUP, "1");
                 configuration.AppSettings.Settings.Add(SETTINGS_PLAYSOUND, "1");
                 configuration.AppSettings.Settings.Add(SETTINGS_COUNTER, "1");
